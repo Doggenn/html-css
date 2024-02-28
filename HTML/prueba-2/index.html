@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table>
+        <thead>
+            Coches
+            <tr>
+                <th>Marca</th>
+                <th>Modelo</th>
+                <th>Color</th>
+                <th>Precio</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Ford</td>
+                <td>Focus</td>
+                <td>Negro</td>
+                <td>22.000€</td>
+            </tr>
+            <tr>
+                <td>Nissan</td>
+                <td>GT-R</td>
+                <td>Blanco</td>
+                <td>122.000€</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <td></td>
+            <td></td>
+            <th>Total</td>
+            <th>144.000€</td>
+        </tfoot>
+    </table>
+    <form>
+        <fieldset>
+            <legend>Datos Basicos</legend> <!--Siempre se tiene que declarar aun que este vacio. -->
+
+            <label>
+                Edad
+                <input type="number" placeholder="En numero.">
+            </label>
+
+            <label for="age">
+                Edad
+            </label>
+            <input type="number" id="age" placeholder="En numero.">
+            
+
+
+            <input type="text" placeholder="Texto" minlength="5" maxlength="9" required>
+            <input type="email" placeholder="Correo">
+            <input type="number" placeholder="Numero">
+            <input type="date" placeholder="Fecha">
+            <input type="file" placeholder="Archivos">
+            <input type="password" placeholder="Contraseña">
+            <input type="radio" name="genero">Hombre
+            <input type="radio" name="genero">Mujer
+            <input type="radio" name="genero">Neutro
+            <input type="checkbox" name="lectura">He leido las condiciones
+            <input type="checkbox" name="lectura" required >Confirmo de verdad la lectura.
+            <textarea name="" id="" cols="30" rows="10" placeholder="Escribe aqui algo."></textarea>
+            <button>Enviar</button>
+            <button type="button">No hace nada</button>
+            <input type="reset" name="" id="">
+            <!-- kkjjjhkhjCtrl + K + C -->
+            <select name="" id="">
+                <option value=""></option>
+                <option value="si">Si</option>
+                <option value="no">No</option>
+                <option value="talvez">Tal vez</option>
+                <option value="quizas">Quizas</option>
+            </select>
+        </fieldset>
+    </form>
+
+</body>
+</html>
